@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>DropDown</title>
+        <style>
+            .dropdown {
+                position: relative;
+            }
+
+            .dropdown-content {
+                display: none;
+                position: absolute;
+                background-color: rgb(196, 143, 25);
+            }
+
+            .dropdown-btn {
+                background-color: rgb(26, 133, 20);
+                color: white;
+                border: none;
+            }
+
+            .dropdown:hover .dropdown-content {
+                display: block;
+            }
+
+            .dropdown-content li {
+                padding: 0px;
+                decoration: none;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="dropdown">
+            <button class="dropdown-btn">Drop!</button>
+            <div class="dropdown-content">
+                <ul>
+                    <li>1</li>
+                    <li>2</li>
+                    <li>3</li>
+                </ul>
+            </div>
+        </div>
+    </body>
+</html>
